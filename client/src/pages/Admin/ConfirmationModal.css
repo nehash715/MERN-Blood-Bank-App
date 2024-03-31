@@ -1,0 +1,54 @@
+
+@keyframes pop-up {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.confirmation-modal {
+    
+    background-color: #fabcbc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid red;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  animation: pop-up 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  opacity: 0;
+  transform: scale(0.5);
+    
+  }
+  
+
+
+  .confirmation-conatiner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .confirmation-modal h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .confirmation-modal button {
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 7px;
+  }
+  
+  .confirmation-modal button:hover {
+    background-color: #f5222d;
+  }
+  

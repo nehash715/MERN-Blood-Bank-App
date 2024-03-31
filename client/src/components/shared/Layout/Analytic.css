@@ -1,0 +1,26 @@
+@keyframes shimmer{
+    from {
+        transform: scaleX(0.9);
+    }
+    to{
+        transform: scaleX(1);
+    }
+}
+
+
+.card1{
+    width: 350px;
+    height: 200px;
+    background-color: grey;
+    margin: 20px;
+    background: linear-gradient(to right,
+  rgb(228, 226, 226) 10% , rgb(233, 231, 231) 80% , rgb(228, 226, 226)  10% );
+    animation: shimmer 3s infinite linear;
+}
+.card-text1{
+    width:250px ;
+    height: 10px;
+    background-color: rgb(180, 180, 180) ;
+    margin-top: 26px;
+    margin-left: 20px;
+}

@@ -1,0 +1,155 @@
+/* Define the shimmer animation */
+@keyframes shimmer{
+    from {
+        transform: scaleX(0.9);
+    }
+    to{
+        transform: scaleX(1.1);
+    }
+}
+
+.container-fluid{
+    display: flex;
+}
+.navbar1{
+    background:black;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    height:80px;
+    
+}
+
+ .h1-shimmer {
+    
+    width: 120px;
+    height: 30px;
+    background: #757575;
+    margin: 10px 0 5px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right,
+    rgb(66, 66, 66) 20% , rgb(85, 84, 84) 35% ,  rgb(80, 79, 79)  50%    );
+   
+    animation: shimmer 2s infinite linear;
+  }
+  /* Style for the logout button */
+  
+  .logo1{
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    background: #757575; 
+    margin: 10px 0 5px 20px; 
+    
+    background: linear-gradient(to right,
+    rgb(66, 66, 66) 20% , rgb(90, 89, 89) 30%     ,  rgb(80, 79, 79)  50%    );
+    animation: shimmer 2s infinite linear;
+  }
+
+.user1{
+  width: 90px;
+    height: 30px;
+    background: #757575;
+    margin: 10px 0 5px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right,
+    rgb(66, 66, 66) 20% , rgb(85, 84, 84) 35% ,  rgb(80, 79, 79)  50%    );
+   
+    animation: shimmer 2s infinite linear;
+    position: absolute;
+    right: 25%;
+}
+
+
+  .user{
+    width: 90px;
+    height: 30px;
+    background: #757575;
+    margin: 10px 0 5px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right,
+    rgb(66, 66, 66) 20% , rgb(85, 84, 84) 35% ,  rgb(80, 79, 79)  50%    );
+   
+    animation: shimmer 2s infinite linear;
+    position: absolute;
+    right: 16%;
+  }
+
+  .shimmer-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background: #757575;
+    margin: 10px 0 5px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right,
+    rgb(66, 66, 66) 20% , rgb(85, 84, 84) 35% ,  rgb(80, 79, 79)  50%    );
+   
+    animation: shimmer 2s infinite linear;
+    position: absolute;
+    right: 10%;
+  }
+
+  .sidebar-shimmer{
+    width: 330px;
+    height: 87vh;
+    
+    background-color: #2e3200;
+    box-shadow: 0 0 2px gray;
+    }
+
+.side-flex{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+.side-flex1{
+  display: flex;
+  flex-direction: row;
+  padding-top: 170px;
+}
+.org1{
+height: 30px;
+width: 20px;
+background-color: #575f04;
+margin-left: 30px;
+margin-right: 8px;
+border-radius: 4px;
+background: linear-gradient(to right,
+#747e06 20% , #7c8607 35% ,  #7c8608  50% );
+animation: shimmer 2s infinite linear;
+}
+
+
+  .org1-text{
+    height: 30px;
+    width: 150px;
+    background-color: #575f04;
+  border-radius: 4px;
+  margin-left: 12px;
+  background: linear-gradient(to right,
+#747e06 20% , #7c8607 35% ,  #7c8608  50% );
+animation: shimmer 2s infinite linear;
+  }
+  
+
+.body1{
+ display: flex;
+}
+
+  .menuss{
+    top:30%;
+    position: absolute;
+    right: 10%;
+  }
+  .line{
+    background-color: white;
+    height: 20px;
+    width:800px;
+    margin: 20px;
+    background: linear-gradient(to right,
+  rgb(228, 226, 226) 10% , rgb(233, 231, 231) 80% , rgb(228, 226, 226)  10% );
+    animation: shimmer 2s infinite linear;
+  }
